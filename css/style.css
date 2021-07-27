@@ -14,6 +14,7 @@ body{
   background: #224;
   padding: 0 10px;
 }
+
 .wrapper{
   background: #fff;
   padding: 20px;
@@ -21,9 +22,11 @@ body{
   border-radius: 5px;
   box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
 }
+
 ::selection{
   background: rgba(23,162,184,0.3);
 }
+
 .wrapper form{
   height: 50px;
   width: 100%;
@@ -51,13 +54,13 @@ form input{
   caret-color: #224;
   border: 2px solid #ddd;
   border-radius: 5px;
-  transition: all 0.1s ease;
+  transition: all 0.4s ease-in-out;
 }
-form input:valid{
-  border-color: #224;
+form input:focus{
+  border: 2px solid #224;
 }
 form input::placeholder{
-  color: #c4c4c4;
+  color: #bdbdbd;
 }
 form input:focus::placeholder{
   color: #d9d9d9;
@@ -103,8 +106,9 @@ form button:hover{
 .statistics span span{
   font-weight: 500;
 }
-.statistics a:hover{
-  color: #224;
+
+.statistics a{
+  color: #f4f4f4;
 }
 
 .wrapper .urls-area{
@@ -149,13 +153,19 @@ form button:hover{
   align-items: center;
   justify-content: center;
 }
-.urls-area .data li a:hover{
+.data li a:hover{
   color: #224;
   text-decoration: underline;
 }
-.urls-area .data li:last-child a:hover{
+.data li:last-child a:hover{
   text-decoration: none;
 }
+
+.data li:nth-child(4):active{ 
+  background-color: #dc3545;
+  color: #f4f4f4;
+}
+
 .urls-area .data:nth-child(odd){
   background: #f2f2f2;
 }
@@ -234,7 +244,7 @@ form button:hover{
   cursor: pointer;
 }
 .copy-icon:hover{
-  color: #224;
+  color: #272766;
 }
 .popup-box form input{
   height: 45px;
@@ -252,4 +262,29 @@ form button:hover{
   right: 0;
   font-size: 20px;
   margin-top: 10px;
+  outline: none;
+}
+
+.footer-div{
+  display: flex;
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  color: #f4f4f4;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer span i {
+  cursor: pointer;
+}
+
+footer span a{
+  color: inherit;
 }
