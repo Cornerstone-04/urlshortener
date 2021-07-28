@@ -119,10 +119,10 @@ if (isset($_GET)) {
     <footer class="blockquote-footer">
       <p>
         <span>Created by Seguncodes</span> | &copy;2021 |
-        <span><a href="https://github.com/Seguncodes"><i class="fab fa-github"></i></a></span> |
-        <span><a href="https://facebook.com/SM-Tech-105188518124796"><i class="fab fa-facebook"></i></a></span> |
-        <span><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></span> |
-        <span><a href="https://instagram.com/"><i class="fab fa-instagram"></i></a></span>
+        <span><a href="https://github.com/Seguncodes" target="_blank" rel="noopener noreferral"><i class="fab fa-github"></i></a></span> |
+        <span><a href="https://facebook.com/SM-Tech-105188518124796" target="_blank" rel="noopener noreferral"><i class="fab fa-facebook"></i></a></span> |
+        <span><a href="https://www.linkedin.com/in/olusegun-joe-alabi-8b89a420a" target="_blank" rel="noopener noreferral"><i class="fab fa-linkedin"></i></a></span> |
+        <span><a href="https://www.instagram.com/Olusegun_shegstix/" target="_blank" rel="noopener noreferral"><i class="fab fa-instagram"></i></a></span>
       </p>
     </footer>
   </div>
